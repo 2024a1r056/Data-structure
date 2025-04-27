@@ -18,7 +18,7 @@ void insertNodeinbeg(int ele)
     Node *newNode = createNode(ele);
     newNode->next = head;
     head = newNode;
-    printf("Node inserted !!!\n");
+    printf("Node  inserted !!!\n");
 }
 void insertNodeatend(int ele)
 {
@@ -165,8 +165,8 @@ void display()
         Node *temp = head;
         while (temp != NULL)
         {
-            printf("%d", temp->data);
-            temp = temp->next;
+            printf(" %d", temp->data);
+            temp = temp->next;  
         }
     }
 }
@@ -177,7 +177,7 @@ int main()
         printf("SINGLY LINKED LIST_\n");
         printf("1. insert node in beginning\n");
         printf("2. insert node at end\n");
-        printf("3. insert node at  any position\n ");
+        printf("3. insert node at  any position\n");
         printf("4. delete node from beginning\n");
         printf("5.delete node from end\n");
         printf("6. delete node from any position\n");
